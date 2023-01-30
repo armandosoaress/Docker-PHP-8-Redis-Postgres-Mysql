@@ -1,6 +1,6 @@
 # Argumentos da Imagem
 ## Versão da Imagem Docker PHP
-ARG PHP_VERSION=8.0.19-fpm
+ARG PHP_VERSION=8-fpm
 FROM php:${PHP_VERSION}
 
 ## Diretório da aplicação
